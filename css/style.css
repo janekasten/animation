@@ -1,0 +1,83 @@
+/**
+ * file: style.css
+ * purpose: effects ...
+ **/
+
+body {
+ background-color: skyblue;
+ text-align: center;
+ padding: 20px;
+}
+
+.tekst {
+ color: azure;
+}
+
+
+}
+article {
+ width: 26rem;
+ border: 5px solid:black;
+}
+.h1 {
+ font-family: sans-serif;
+ color: black;
+ font-size: 3em;
+}
+
+/* The animation code */
+
+@keyframes example {
+ 0% {
+  background-color: whitesmoke;
+ }
+ 
+ 25% {
+  background-color: yellow;
+ }
+ 
+ 50% {
+  background-color: blue;
+ }
+ 
+ 100% {
+  background-color: green;
+ }
+}
+@keyframes billede {
+ transform: rotate: 7deg;
+}
+
+.img {
+ animation-name: billede;
+ animation-duration: 8s;
+ -webkit-transform: rotate(7deg);
+ transform: rotateZ(7deg)
+
+}
+
+/* The element to apply the animation to */
+h1 {
+ width: 300px;
+ height: 50px;
+ background-color: whitesmoke;
+ animation-name: example;
+ animation-duration: 8s;
+}
+.h2 {
+ color: black;
+ font-style: italic;
+ font-weight: bolder;
+}
+.p {
+ color: black;
+ font-family: serif;
+}
+#first {
+ text-align: center;
+ width: 50rem;
+ font-family: sans-serif;
+ font-weight: bold;
+}
+
+
